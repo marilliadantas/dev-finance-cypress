@@ -23,7 +23,7 @@ jobs:
 
       - name: Instalando as dependências
         run: | 
-          echo "Instalando as dependências" && npm install && npm install -D cypress@9.1
+          echo "Instalando as dependências" && npm init --yes && npm install -D cypress@12.12
 
       - name: Executando os testes com cypress
         run: echo "Executando os testes" && npx cypress run
