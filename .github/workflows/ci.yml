@@ -26,4 +26,4 @@ jobs:
           echo "Instalando as dependências" && npm init --yes && npm install -D cypress@12.12
 
       - name: Executando os testes com cypress
-        run: echo "Executando os testes" && npx cypress open
+        run: echo "Executando os testes" && npx cypress run
